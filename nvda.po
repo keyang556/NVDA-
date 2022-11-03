@@ -1,187 +1,134 @@
-# Copyright (C) 2018 NVDA-Taiwan Volunteers Team
-# This file is distributed under the same license as the "Resource Monitor" package.
 msgid ""
 msgstr ""
-"Project-Id-Version: resourceMonitor 4.4\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2016-04-22 18:05+1000\n"
-"PO-Revision-Date: 2022-11-03 21:02+0800\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2022-01-18 14:29+0300\n"
+"PO-Revision-Date: 2022-11-03 21:43+0800\n"
 "Last-Translator: Ken Chang <lindsay714322@gmail.com>\n"
-"Language-Team: NVDA-Taiwan Volunteers Team <nvdazh_TW@googlegroups.com>\n"
+"Language-Team: \n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: .\n"
 
-#. Translators: Message reported when there is no battery on the system,
-#. mostly laptops with battery pack removed and running on AC power.
-msgid "This computer does not have a battery connected."
-msgstr "這台電腦沒有連接電池。"
+#: addon\globalPlugins\CloudVision\__init__.py:78
+msgid "CloudVision Settings"
+msgstr "AI 視覺設定"
 
-#. Translators: message presented when AC is connected and battery is charging,
-#. also show current battery percentage.
-#, python-brace-format
-msgid "{percent}%, battery charging."
-msgstr "百分之 {percent} 正在充電"
+#: addon\globalPlugins\CloudVision\__init__.py:83
+msgid "&Play sound during recognition"
+msgstr "&辨識中時播放音效"
 
-#. Translators: message presented when computer is running on battery power,
-#. showing percentage remaining yet battery time is unknown.
-#, fuzzy, python-brace-format
-msgid "{percent}% battery remaining, battery time unknown."
-msgstr "電池電量為百分之 {percent} ，剩餘時間{time}。"
+#: addon\globalPlugins\CloudVision\__init__.py:87
+msgid "Recognize &text"
+msgstr "辨識 &文字"
 
-#. Translators: battery and system uptime in hours.
-#. Translators: system uptime in hours.
-msgid "1 hour"
-msgstr "1 小時"
+#: addon\globalPlugins\CloudVision\__init__.py:91
+msgid "Recognize &images"
+msgstr "辨識 &圖片"
 
-#. Translators: battery and system uptime in hours.
-#. Translators: system uptime in hours.
-#, python-brace-format
-msgid "{0} hours"
-msgstr "{0} 小時"
+#: addon\globalPlugins\CloudVision\__init__.py:95
+msgid "Read &QR / bar code"
+msgstr "讀 &QR / bar 代碼"
 
-#. Translators: battery and system uptime in minutes.
-#. Translators: system uptime in minutes.
-msgid "1 minute"
-msgstr "1 分"
+#: addon\globalPlugins\CloudVision\__init__.py:99
+msgid "Translate text"
+msgstr "翻譯文字"
 
-#. Translators: battery and system uptime in minutes.
-#. Translators: system uptime in minutes.
-#, python-brace-format
-msgid "{0} minutes"
-msgstr "{0} 分"
+#: addon\globalPlugins\CloudVision\__init__.py:110
+msgid ""
+"Select image description language, other languages than english are more "
+"prone to translation errors"
+msgstr "選取圖片描述的語言，不是英文的語言可能較多翻譯錯誤。"
 
-#. Translators: message presented when computer is running on battery power,
-#. showing percentage remaining and estimated remaining time.
-#, python-brace-format
-msgid "{percent}% battery remaining, about {time}."
-msgstr "電池電量為百分之 {percent}，剩餘時間{time}。"
+#: addon\globalPlugins\CloudVision\__init__.py:115
+msgid "Open site"
+msgstr "開啟網站"
 
-#. Translators: Message reported when battery level is low.
-msgid " Warning: low battery."
-msgstr " 警告：電池電量低"
+#: addon\globalPlugins\CloudVision\__init__.py:137
+msgid "Error saving settings"
+msgstr "儲存設定時發生錯誤"
 
-#. Translators: Message reported when battery level is critical.
-msgid " Warning: critically low battery."
-msgstr " 警告：電池電量非常低"
+#: addon\globalPlugins\CloudVision\__init__.py:176
+msgid "Cloud Vision settings..."
+msgstr "AI視覺設定..."
 
-#. Translators: Presents Windows version
-#. (example output: "Windows 8.1 (32-bit)").
-#, fuzzy, python-brace-format
-msgid "{winVersion} ({cpuBit})"
-msgstr "{winVersion} ({cpuBit})"
+#: addon\globalPlugins\CloudVision\__init__.py:236
+msgid "File not supported"
+msgstr "檔案不支援"
 
-#. Translators: Presents Windows version and service pack level
-#. (example output: "Windows 7 service pack 1 (64-bit)").
-#, fuzzy, python-brace-format
-msgid "{winVersion} {servicePackLevel} ({cpuBit})"
-msgstr "{winVersion} {servicePackLevel} ({cpuBit})"
+#: addon\globalPlugins\CloudVision\__init__.py:263
+msgid "Analysis completed: "
+msgstr "辨識完成："
 
-#. Translators: The gestures category for this add-on in input gestures dialog (2013.3 or later).
+#: addon\globalPlugins\CloudVision\__init__.py:265
+msgid "CloudVision result"
+msgstr "AI視覺結果"
+
+#: addon\globalPlugins\CloudVision\__init__.py:272
+msgid "Error"
+msgstr "錯誤"
+
+#: addon\globalPlugins\CloudVision\__init__.py:282
+msgid "Analyzing selected file"
+msgstr "正在辨識已選取的檔案"
+
+#: addon\globalPlugins\CloudVision\__init__.py:284
+msgid "Analyzing navigator object"
+msgstr "正在辨識瀏覽的物件"
+
+#. Translators: Reported when screen curtain is enabled.
+#: addon\globalPlugins\CloudVision\__init__.py:294
+msgid "Please disable screen curtain before using CloudVision add-on."
+msgstr "請先關閉螢幕簾幕，在使用AI視覺附加元件。"
+
+#: addon\globalPlugins\CloudVision\__init__.py:304
+msgid "This navigator object is not analyzable"
+msgstr "這個物件無法辨識"
+
+#: addon\globalPlugins\CloudVision\__init__.py:347
+msgid ""
+"Gives a description on how current navigator object or selected file in "
+"Explorer looks like visually,\n"
+"if you press twice quickly, a virtual viewer will open."
+msgstr ""
+"取得一個目前瀏覽的物件或檔案總管選取的檔案的視覺樣式，\n"
+"如果您快速按兩次，將開啟虛擬瀏覽視窗。"
+
+#: addon\globalPlugins\CloudVision\__init__.py:349
+#: addon\globalPlugins\CloudVision\__init__.py:363
+msgid "Cloud Vision"
+msgstr "AI 視覺"
+
+#: addon\globalPlugins\CloudVision\__init__.py:353
+msgid "Text Not Found."
+msgstr "沒有找到文字"
+
+#: addon\globalPlugins\CloudVision\__init__.py:358
+msgid "Result copyed in clipboard.\n"
+msgstr "結果已複製到剪貼簿\n"
+
+#: addon\globalPlugins\CloudVision\__init__.py:362
+msgid "Copy last result in clipboard."
+msgstr "複製最後一個辨識結果到剪貼簿。"
+
 #. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information.
-msgid "Resource Monitor"
-msgstr "資源監視器"
-
-#. Translators: Input help message about battery info command in Resource Monitor.
-msgid ""
-"Presents battery percentage, charging status, remaining time (if not "
-"charging), and a warning if the battery is low or critical."
-msgstr "顯示電池電量及充電狀態。未充電時顯示剩餘時間，電池電量低時顯示警告。"
-
-#. Translators: Input help message about drive info command in Resource Monitor.
-msgid ""
-"Presents the used and total space of the static and removable drives on this "
-"computer."
-msgstr "顯示電腦上本機磁碟及卸除是磁碟的總計空間及已用空間。"
-
-#. Translators: Shows drive letter, type of drive (fixed or removable),
-#. used capacity and total capacity of a drive
-#. (example: C drive, ntfs; 40 GB of 100 GB used (40%).
-#, python-brace-format
-msgid ""
-"{driveName} ({driveType} drive): {usedSpace} of {totalSpace} used {percent}%."
-msgstr ""
-"{driveName} (檔案系統 {driveType}): 大小 {totalSpace}, 已使用 {usedSpace}, 使"
-"用率 {percent}%."
-
-#. Translators: Input help mode message about processor info command in Resource Monitor.
-msgid "Presents the average processor load and the load of each core."
-msgstr "顯示 CPU 平均使用率及每個核心的使用情形。"
-
-#. Translators: Shows average load of CPU cores (example: core 1, 50%).
-#, python-brace-format
-msgid "Core {coreNumber}: {corePercent}%"
-msgstr "核心 {coreNumber}: {corePercent}%"
-
-#. Translators: Shows average load of the processor and the load for each core.
-#, python-brace-format
-msgid "Average CPU load {avgLoad}%, {cores}."
-msgstr "CPU 使用率 {avgLoad}%, {cores}."
-
-#. Translators: Input help mode message about memory info command in Resource Monitor.
-msgid "Presents the used and total space for both physical and virtual ram."
-msgstr "顯示實體/虛擬記憶體的總計空間及已用空間。"
-
-#. Translators: Shows RAM (physical memory) usage.
-#, python-brace-format
-msgid "Physical: {physicalUsed} of {physicalTotal} used ({physicalPercent}%). "
-msgstr ""
-"實體記憶體: 大小 {physicalTotal}, 已使用 {physicalUsed}, 使用率 "
-"{physicalPercent}%. "
-
-#. Translators: Shows virtual memory usage.
-#, python-brace-format
-msgid "Virtual: {virtualUsed} of {virtualTotal} used ({virtualPercent}%)."
-msgstr ""
-"虛擬記憶體: 大小 {virtualTotal}, 已使用 {virtualUsed}, 使用率 "
-"{virtualPercent}%."
-
-#. Translators: Input help mode message about Windows version command in Resource Monitor.
-msgid "Announces the version of Windows you are using."
-msgstr "顯示目前使用的 Windows  版本。"
-
-#. Translators: system uptime in days.
-msgid "1 day"
-msgstr "1 天"
-
-#. Translators: system uptime in days.
-#, python-brace-format
-msgid "{0} days"
-msgstr "{0} 天"
-
-#. Translators: system uptime in seconds.
-msgid "1 second"
-msgstr "1 秒"
-
-#. Translators: system uptime in seconds.
-#, python-brace-format
-msgid "{0} seconds"
-msgstr "{0} 秒"
-
-#. Translators: Input help mode message about obtaining the system's uptime
-msgid "Announces the system's uptime."
-msgstr "顯示系統執行時間。"
-
-#. Translators: Obtaining uptime failed
-msgid "Failed to get the system's uptime."
-msgstr "無法獲得系統運行時間。"
-
-#. Translators: Input help mode message about overall system resource info command in Resource Monitor
-msgid ""
-"Presents used ram, average processor load, and battery info if available."
-msgstr "顯示記憶體及 CPU 使用率，如有電池訊息也一併顯示。"
-
-#, python-brace-format
-msgid "{ramPercent}% RAM used, CPU at {cpuPercent}%."
-msgstr "記憶體使用率 {ramPercent}%, CPU 使用率 {cpuPercent}%."
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
+msgid "CloudVision"
+msgstr "AI 視覺"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
-"A handy resource monitor to report CPU load, memory usage, battery, disk "
-"usage status and more."
-msgstr "此資源監控元件能讀出 CPU 負載，記憶體、電池、磁碟使用情形。"
+"An extension for describing images by utilizing recent advances in AI "
+"technology. Press NVDA+Control+I to get a description of an object or "
+"selected file in Explorer, if you press twice quickly, a virtual viewer will "
+"open."
+msgstr ""
+"一個使用 AI 技術描述圖片的附加元件。 按下 NVDA+Control+I 取得物件的描述或檔案"
+"總管選取的檔案， 如果您快速按兩次，將開啟虛擬瀏覽視窗。"
